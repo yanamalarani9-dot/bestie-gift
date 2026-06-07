@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestie Gift - Friendship Surprise</title>
+    <!-- Import Premium & Elegant Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Montserrat:wght@400;600;700;900&family=Playfair+Display:ital,wght=0,600;1,400;1,700&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- STAGE 1: CINEMATIC GLOWING NEON COUNTDOWN SCREEN -->
+<div id="intro-screen">
+    <!-- Animated Floating Background Elements -->
+    <div class="floating-heart" style="left: 15%; animation-delay: 0s;">❤️</div>
+    <div class="floating-heart" style="left: 80%; animation-delay: 2s;">✨</div>
+    <div class="floating-heart" style="left: 45%; animation-delay: 4s;">❤️</div>
+    
+    <div id="intro-glow-core"></div>
+    
+    <div class="intro-container-box">
+        <div id="intro-title">🎁 A small gift for my bestie...</div>
+        <div class="counter-wrapper">
+            <div id="intro-number">1</div>
+        </div>
+        <div id="intro-subtitle">PREPARING YOUR SURPRISE</div>
+    </div>
+</div>
+
+<!-- STAGE 2: THE HIGHLY ATTRACTIVE SURPRISE WISH POP-UP -->
+<div id="wish-page" class="page">
+    <div class="card wish-card">
+        <div class="sparkles">✨🥂✨</div>
+        <div class="heart-badge">❤️</div>
+        
+        <h1 class="main-title">
+            To My Absolute Favorite Human...
+            <span class="cursive-name">Harshuuu</span>
+        </h1>
+        
+        <div class="badge-tag">🔒 5 YEARS & COUNTING</div>
+
+        <div class="quote-container">
+            <span class="quote-mark">"</span>
+            <p class="personal-message">
+                Harshuuu happy best frds day ra i love you and miss you too thank for a lot of memories and hope for more may your dreams cherish
+            </p>
+            <span class="quote-mark" style="text-align: right; display: block; margin-top: -20px;">"</span>
+        </div>
+        
+        <button class="next-btn" onclick="showBondPage()">View Our Friendship Bond 📜</button>
+    </div>
+</div>
+
+<!-- STAGE 3: REALISTIC & LUXURIOUS FRIENDSHIP BOND PAGE -->
+<div id="bond-page" class="page">
+    <div class="card real-bond-layout">
+        <div class="bond-border-outer"></div>
+        <div class="bond-border-inner"></div>
+        
+        <div class="gold-wax-seal">⚜️</div>
+        
+        <h2 class="bond-header-title">DEED OF FRIENDSHIP</h2>
+        <div class="bond-sub-header">CERTIFICATE OF LIFELONG ALLIANCE</div>
+        
+        <div class="bond-divider-line"></div>
+        
+        <p class="bond-legal-declaration">
+            Let it be known to all that this binding covenant is established to honor a legendary milestone:
+        </p>
+
+        <div class="milestone-legal-box">
+            <div class="milestone-years-count">5 YEARS</div>
+            <div class="milestone-subtext-line">OF UNBREAKABLE TRUST & MEMORIES</div>
+        </div>
+
+        <div class="bond-clauses-wrapper">
+            <div class="legal-row">
+                <span class="section-mark">§ I.</span> 
+                <strong>THE NO-SECRET DIRECTIVE</strong> — Both parties pledge to disclose all life gossip, major updates, and achievements without delay.
+            </div>
+            <div class="legal-row">
+                <span class="section-mark">§ II.</span> 
+                <strong>THE 2 AM HOTLINE ACCORD</strong> — Unrestricted clearance is granted to call, rant, or text at any hour when emotional backing is required.
+            </div>
+            <div class="legal-row">
+                <span class="section-mark">§ III.</span> 
+                <strong>LIFELONG BACKING GUARANTEE</strong> — Regardless of physical distance or time, both parties swear absolute support to see each other's dreams cherish.
+            </div>
+        </div>
+
+        <div class="formal-signatures-container">
+            <div class="signature-block">
+                <div class="handwritten-sig">Me</div>
+                <div class="witness-title">First Party</div>
+            </div>
+            <div class="signature-block">
+                <div class="handwritten-sig" style="color: #d63031;">Harshuuu</div>
+                <div class="witness-title">Second Party</div>
+            </div>
+        </div>
+        
+        <button class="next-btn flex-btn" onclick="showPerksPage()">Unlock Bestie Perks 🎁</button>
+        <button class="back-btn" onclick="showWishPage()">⬅️ Return to Wish</button>
+    </div>
+</div>
+
+<!-- STAGE 4: THE CUTE INTERACTIVE PROMISES PAGE -->
+<div id="memories-page" class="page">
+    <div class="card gift-card-page">
+        <h2 class="gallery-heading">Our Friendship Perks</h2>
+        <p class="gallery-subtext">No photos needed—these special bestie coupons are valid forever! 👑</p>
+        
+        <div class="coupon-grid">
+            <div class="coupon-item">
+                <div class="coupon-icon">🍫</div>
+                <h3>Unlimited Chocolates</h3>
+                <p>Valid anytime you're having a stressful day or just crave sweet treats.</p>
+            </div>
+            
+            <div class="coupon-item">
+                <div class="coupon-icon">📞</div>
+                <h3>2 AM Rant Hotline</h3>
+                <p>Guaranteed pick-up whenever you need to vent about literally anything.</p>
+            </div>
+            
+            <div class="coupon-item">
+                <div class="coupon-icon">💬</div>
+                <h3>Late-Night Chat Partner</h3>
+                <p>Your permanent, always-awake teammate for endless late-night conversations and deep talks.</p>
+            </div>
+            
+            <div class="coupon-item">
+                <div class="coupon-icon">✨</div>
+                <h3>Lifelong Support</h3>
+                <p>No matter where life takes us, I've always got your back, ra!</p>
+            </div>
+        </div>
+        
+        <div class="infinity-badge">
+            ♾️ Best Friends Forever & Ever
+        </div>
+        
+        <button class="back-btn" onclick="showBondPage()">⬅️ Go Back to Bond</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
